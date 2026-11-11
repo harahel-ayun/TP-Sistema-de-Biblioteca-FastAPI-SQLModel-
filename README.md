@@ -6,7 +6,7 @@ API REST para gestionar el catálogo de una biblioteca (autores, libros, socios)
 
 ```bash
 python -m venv .venv
-source .venv/bin/activate        # En Windows: .venv\Scripts\activate
+.venv\Scripts\activate           #en linux o mac: .venv/bin/activate  
 pip install -r requirements.txt
 uvicorn app.main:app --reload
 ```
